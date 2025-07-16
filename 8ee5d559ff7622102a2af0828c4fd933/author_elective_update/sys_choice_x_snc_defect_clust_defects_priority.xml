@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>alberto.guerra@snc</sys_created_by>
             <sys_created_on>2025-07-16 17:40:34</sys_created_on>
-            <sys_id>4cdc5115ffb622102a2af0828c4fd920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>priority</sys_name>
             <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-07-16 18:07:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>90e269d9ffb622102a2af0828c4fd9d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alberto.guerra@snc</sys_updated_by>
             <sys_updated_on>2025-07-16 18:07:14</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-07-16 18:06:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>23b2e1d9ffb622102a2af0828c4fd930</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alberto.guerra@snc</sys_updated_by>
             <sys_updated_on>2025-07-16 18:06:39</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2025-07-16 17:57:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d7a0a919ffb622102a2af0828c4fd9bf</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>alberto.guerra@snc</sys_updated_by>
             <sys_updated_on>2025-07-16 17:57:55</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2025-07-16 18:07:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b1f269d9ffb622102a2af0828c4fd9b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>alberto.guerra@snc</sys_updated_by>
             <sys_updated_on>2025-07-16 18:07:33</sys_updated_on>

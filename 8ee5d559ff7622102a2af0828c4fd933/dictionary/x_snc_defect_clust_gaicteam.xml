@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="10092991fff622102a2af0828c4fd99e" extends="sys_import_set_row" label="GAICteam" max_length="40" name="x_snc_defect_clust_gaicteam" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User ID" label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last" label="Last" max_length="40" name="u_last" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First" label="First" max_length="40" name="u_first" type="string"/>
+    </element>
+</database>

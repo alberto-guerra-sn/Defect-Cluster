@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>alberto.guerra@snc</sys_created_by>
         <sys_created_on>2025-07-16 17:32:17</sys_created_on>
-        <sys_id>eeea5d51ffb622102a2af0828c4fd93f</sys_id>
         <sys_name>x_snc_defect_clust_defects</sys_name>
         <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
         <sys_policy/>
