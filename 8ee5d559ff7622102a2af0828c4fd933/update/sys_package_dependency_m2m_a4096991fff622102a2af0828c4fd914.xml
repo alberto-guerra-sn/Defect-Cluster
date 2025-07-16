@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">74a692c12b322210f147f7a95e91bfa4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-16 18:33:51</sys_created_on>
+        <sys_id>a4096991fff622102a2af0828c4fd914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-16 18:33:51</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

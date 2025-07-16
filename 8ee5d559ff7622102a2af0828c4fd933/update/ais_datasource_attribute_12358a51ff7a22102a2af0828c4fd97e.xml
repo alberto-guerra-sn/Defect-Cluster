@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_attribute">
+    <ais_datasource_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="index_attachments">2dd8f14753320010ffaaddeeff7b1293</attribute>
+        <datasource display_value="Defect Indexed Source">6bd34651ff7a22102a2af0828c4fd918</datasource>
+        <source>x_snc_defect_clust_defects</source>
+        <sys_class_name>ais_datasource_attribute</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-16 20:37:08</sys_created_on>
+        <sys_id>12358a51ff7a22102a2af0828c4fd97e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Defect Cluster">8ee5d559ff7622102a2af0828c4fd933</sys_scope>
+        <sys_update_name>ais_datasource_attribute_12358a51ff7a22102a2af0828c4fd97e</sys_update_name>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-16 20:37:08</sys_updated_on>
+        <value>false</value>
+    </ais_datasource_attribute>
+</record_update>
