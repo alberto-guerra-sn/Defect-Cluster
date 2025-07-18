@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_semantic_component_field">
+    <ais_semantic_component_field action="INSERT_OR_UPDATE">
+        <component_field_name>engineering_details</component_field_name>
+        <order>2</order>
+        <semantic_field display_value="Defects-Table-semantic-index">d438da692bb62210f147f7a95e91bf2d</semantic_field>
+        <source>x_snc_defect_clust_defects</source>
+        <sys_class_name>ais_semantic_component_field</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 16:58:55</sys_created_on>
+        <sys_id>9ddcd2212bf62210f147f7a95e91bf98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Defect Cluster">8ee5d559ff7622102a2af0828c4fd933</sys_scope>
+        <sys_update_name>ais_semantic_component_field_9ddcd2212bf62210f147f7a95e91bf98</sys_update_name>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 16:58:55</sys_updated_on>
+        <type>field</type>
+    </ais_semantic_component_field>
+</record_update>

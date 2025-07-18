@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db0a2115fff622102a2af0828c4fd9a8" extends="sys_import_set_row" label="Defects Import" max_length="40" name="x_snc_defect_clust_defects_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work notes" label="Work notes" max_length="31985" name="u_work_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Engineering details" label="Engineering details" max_length="13561" name="u_engineering_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Steps to reproduce" label="Steps to reproduce" max_length="31987" name="u_steps_to_reproduce" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Resolution details" label="Resolution details" max_length="1055" name="u_resolution_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product/service" label="Product/service" max_length="55" name="u_product_service" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="216" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+    </element>
+</database>

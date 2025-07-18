@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56399dddff7622102a2af0828c4fd923" label="Defects" max_length="40" name="x_snc_defect_clust_defects" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var fullContext =&#13;&#10;&#9;(current.short_description || '') + '\n\n' +&#13;&#10;&#9;(current.engineering_details || '') + '\n\n' +&#13;&#10;&#9;(current.work_notes || '') + '\n\n' +&#13;&#10;&#9;(current.resolution_notes || '') + '\n\n' +&#13;&#10;&#9;(current.steps_to_reproduce || '');&#13;&#10; &#13;&#10;&#9;return fullContext;&#13;&#10;&#13;&#10;})(current);" label="Full Defect Context" max_length="8000" name="full_defect_context" read_only="true" type="string" virtual="true"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2 - Moderate" value="2 - Moderate"/>
+                <element inactive_on_update="false" label="1 - High" value="1 - High"/>
+                <element inactive_on_update="false" label="5 - Planning" value="5 - Planning"/>
+                <element inactive_on_update="false" label="3 - Low" value="3 - Low"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Steps to reproduce" max_length="4000" name="steps_to_reproduce" type="string"/>
+        <element label="Engineering Details" max_length="4000" name="engineering_details" type="string"/>
+        <element label="Work Notes" max_length="8000" name="work_notes" type="string"/>
+        <element choice="1" label="Bucket" max_length="40" name="bucket" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Configuration/Operator Error" value="Configuration/Operator Error"/>
+                <element inactive_on_update="false" label="Security" value="Security"/>
+                <element inactive_on_update="false" label="Guardian" value="Guardian"/>
+                <element inactive_on_update="false" label="Plugin" value="Plugin"/>
+                <element inactive_on_update="false" label="Timeout" value="Timeout"/>
+                <element inactive_on_update="false" label="Connection Issues" value="Connection Issues"/>
+                <element inactive_on_update="false" label="Setup" value="Setup"/>
+            </choice>
+        </element>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Targeted" value="Targeted"/>
+                <element inactive_on_update="false" label="Working as Expected" value="Working as Expected"/>
+                <element inactive_on_update="false" label="Can't Confirm" value="Can't Confirm"/>
+                <element inactive_on_update="false" label="Duplicate" value="Duplicate"/>
+                <element inactive_on_update="false" label="Verified in track" value="Verified in track"/>
+                <element inactive_on_update="false" label="Investigation" value="Investigation"/>
+                <element inactive_on_update="false" label="Won't Fix" value="Won't Fix"/>
+                <element inactive_on_update="false" label="Fixed" value="Fixed"/>
+            </choice>
+        </element>
+        <element label="Cluster" max_length="300" name="cluster" type="string"/>
+        <element label="Resolution Details" max_length="4000" name="resolution_details" type="string"/>
+        <element label="GAF Group ID" max_length="40" name="gaf_group_id" type="string"/>
+        <element label="Recommendation" max_length="8000" name="recommendation" type="html"/>
+        <element choice="1" label="Product/Service" max_length="40" name="product_service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Virtual Agent" value="Virtual Agent"/>
+                <element inactive_on_update="false" label="AI Chat Summarization" value="AI Chat Summarization"/>
+                <element inactive_on_update="false" label="OneExtend" value="OneExtend"/>
+                <element inactive_on_update="false" label="Outbound REST Web Service" value="Outbound REST Web Service"/>
+                <element inactive_on_update="false" label="Now Assist for Configuration Management Database (CMDB)" value="Now Assist for Configuration Management Database (CMDB)"/>
+                <element inactive_on_update="false" label="Alert Analysis" value="Alert Analysis"/>
+                <element inactive_on_update="false" label="Now Assist in Virtual Agent" value="Now Assist in Virtual Agent"/>
+                <element inactive_on_update="false" label="Now Assist in Conversational Catalog Request" value="Now Assist in Conversational Catalog Request"/>
+                <element inactive_on_update="false" label="Now Assist in Knowledge Management" value="Now Assist in Knowledge Management"/>
+                <element inactive_on_update="false" label="TrustBuilder" value="TrustBuilder"/>
+                <element inactive_on_update="false" label="Now Assist in AI Search" value="Now Assist in AI Search"/>
+                <element inactive_on_update="false" label="AI Agents" value="AI Agents"/>
+                <element inactive_on_update="false" label="Now Assist Skill Discovery &amp; Execution" value="Now Assist Skill Discovery &amp; Execution"/>
+                <element inactive_on_update="false" label="Generative AI Controller" value="Generative AI Controller"/>
+                <element inactive_on_update="false" label="Now Assist Data Kit" value="Now Assist Data Kit"/>
+                <element inactive_on_update="false" label="Generative AI Core LLM" value="Generative AI Core LLM"/>
+                <element inactive_on_update="false" label="Now Assist Skill Kit" value="Now Assist Skill Kit"/>
+                <element inactive_on_update="false" label="Platform Record Summarization and Resolution" value="Platform Record Summarization and Resolution"/>
+                <element inactive_on_update="false" label="AI Search" value="AI Search"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="4000" name="short_description" type="string"/>
+        <element label="Summary" max_length="2000" name="summary" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

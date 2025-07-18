@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="Action strategy inputs">386ff935775412103f075cea5b5a995d</config_type>
+        <description/>
+        <hide_step>false</hide_step>
+        <name>Action strategy inputs</name>
+        <order>100</order>
+        <parent/>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="GAF Defect action strategy">4d1fd2912bf22210f147f7a95e91bf95</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-16 22:34:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>85df52d12bf22210f147f7a95e91bffc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Action strategy inputs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Defect Cluster">8ee5d559ff7622102a2af0828c4fd933</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_85df52d12bf22210f147f7a95e91bffc</sys_update_name>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 21:53:26</sys_updated_on>
+        <title/>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=85df52d12bf22210f147f7a95e91bffc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=85df52d12bf22210f147f7a95e91bffc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>85df52d12bf22210f147f7a95e91bffc</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 21:45:39</sys_created_on>
+        <sys_id>448e13ed2b3e2210f147f7a95e91bf60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 21:45:39</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Top N">c87d2a31771812103f075cea5b5a99ad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>85df52d12bf22210f147f7a95e91bffc</document_key>
+        <order>800</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 21:45:39</sys_created_on>
+        <sys_id>448e13ed2b3e2210f147f7a95e91bf61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 21:53:26</sys_updated_on>
+        <value>Defects-Table-semantic-index</value>
+        <variable display_value="Semantic Index Name">0549abdeebd8ae501ea6fc7acad0cd2d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>85df52d12bf22210f147f7a95e91bffc</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 21:45:39</sys_created_on>
+        <sys_id>808e13ed2b3e2210f147f7a95e91bf61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 21:45:39</sys_updated_on>
+        <value>clustering</value>
+        <variable display_value="Strategy">a71a791f43d21210642168cef7b8f2c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>85df52d12bf22210f147f7a95e91bffc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-16 22:41:17</sys_created_on>
+        <sys_id>81a12e552bf22210f147f7a95e91bfd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-16 22:41:17</sys_updated_on>
+        <value>x_snc_defect_clust_defects</value>
+        <variable display_value="Group table">84fce6fd77d412103f075cea5b5a9925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>85df52d12bf22210f147f7a95e91bffc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 21:45:39</sys_created_on>
+        <sys_id>cc8e13ed2b3e2210f147f7a95e91bf60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 21:45:39</sys_updated_on>
+        <value>full_defect_context</value>
+        <variable display_value="Fields">2a8f3175775412103f075cea5b5a99bb</variable>
+    </sys_variable_value>
+</record_update>

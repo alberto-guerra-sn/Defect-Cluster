@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_gaf_sysauto_script">
+    <sn_gaf_sysauto_script action="INSERT_OR_UPDATE">
+        <action_skill display_value=""> 4d1fd2912bf22210f147f7a95e91bf9</action_skill>
+        <active>true</active>
+        <business_calendar/>
+        <condition><![CDATA[new sn_gaf.GAFUtils().isValidInstance(current);]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <group_skill display_value="GAF Defect grouping">8bdce3e52bbe2210f147f7a95e91bf21</group_skill>
+        <instance_id>4da51f3cfb24e2181feef633beefdcb3</instance_id>
+        <max_drift/>
+        <name>GAF - Run Offline Flow</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">alberto.guerra@snc</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-07-17 23:14:12</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[new sn_gaf.GAFUtils().runOfflineFlow(current.group_skill.sys_id + "", current.topic_skill.sys_id + "", current.action_skill.sys_id + "");]]></script>
+        <sys_class_name>sn_gaf_sysauto_script</sys_class_name>
+        <sys_created_by>alberto.guerra@snc</sys_created_by>
+        <sys_created_on>2025-07-17 23:05:28</sys_created_on>
+        <sys_id>85c0bb2d2bbe2210f147f7a95e91bfb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GAF - Run Offline Flow</sys_name>
+        <sys_package display_value="Defect Cluster" source="x_snc_defect_clust">8ee5d559ff7622102a2af0828c4fd933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Defect Cluster">8ee5d559ff7622102a2af0828c4fd933</sys_scope>
+        <sys_update_name>sn_gaf_sysauto_script_85c0bb2d2bbe2210f147f7a95e91bfb4</sys_update_name>
+        <sys_updated_by>alberto.guerra@snc</sys_updated_by>
+        <sys_updated_on>2025-07-17 23:05:28</sys_updated_on>
+        <time_zone/>
+        <topic_skill display_value="GAF topics">43bce9e477e012103f075cea5b5a998f</topic_skill>
+        <type>offline</type>
+        <upgrade_safe>false</upgrade_safe>
+    </sn_gaf_sysauto_script>
+</record_update>
